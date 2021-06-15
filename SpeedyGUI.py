@@ -47,7 +47,7 @@ root.resizable(False,False)
 canvas = Canvas(root, width = 300, height = 385, bg = "black")
 canvas.pack()
 #img = PhotoImage(file='pic.png')
-img = PhotoImage(file="C:\Temp\Python\InternetSpeed\pic.png")
+img = PhotoImage(file="InternetSpeed\pic.png")
 canvas.create_image(0,0,anchor=NW,image=img)
 
 ##Button and label config 
